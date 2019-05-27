@@ -1,6 +1,6 @@
 {
-  "name": "angular-formio",
-  "version": "3.16.2",
+  "name": "@bsynchro/angular-formio",
+  "version": "1.0.0-beta.2",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -12,25 +12,20 @@
     "lite": "lite-server",
     "build:demo": "webpack --mode=production",
     "demo": "gulp build && concurrently --raw \"webpack-dev-server --open\" \"npm run test:watch\"",
-    "publish": "gulp build && gulp package-version && npm publish dist",
+    "publish": "npm publish dist",
     "test": "tsc && karma start",
-    "test:watch": "karma start --auto-watch"
+    "test:watch": "karma start --auto-watch",
+    "clean": "gulp clean"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/formio/angular-formio"
+    "url": "https://github.com/asmeha/angular-formio"
   },
   "author": {
     "name": "Travis Tidwell",
     "email": "travis@form.io"
   },
-  "keywords": [
-    "angular"
-  ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/formio/angular-formio/issues"
-  },
   "devDependencies": {
     "@angular/cli": "^7.3.9",
     "@angular/common": "^7.2.15",
@@ -104,7 +99,9 @@
     "zone.js": "^0.8.26"
   },
   "dependencies": {
-    "formiojs": "^3.20.11",
+    "@bsynchro/formiojs": "^1.0.0-beta.2",
+    "gulp-better-rollup": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.5",
     "lodash": "^4.17.11",
     "ngx-bootstrap": "^4.1.1"
   }

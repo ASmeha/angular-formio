@@ -13,7 +13,7 @@ import {
   FormioForm,
   FormioOptions
 } from '../../formio.common';
-import { Formio, FormBuilder } from 'formiojs';
+import { Formio, FormBuilder } from '@bsynchro/formiojs';
 import { assign } from 'lodash';
 
 /* tslint:disable */
