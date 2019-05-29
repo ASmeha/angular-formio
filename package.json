@@ -99,7 +99,7 @@
     "zone.js": "^0.8.26"
   },
   "dependencies": {
-    "@bsynchro/formiojs": "^1.0.0-beta.2",
+    "@bsynchro/formiojs": "^1.0.0-beta.3",
     "gulp-better-rollup": "^4.0.1",
     "gulp-sourcemaps": "^2.6.5",
     "lodash": "^4.17.11",
