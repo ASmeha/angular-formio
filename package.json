@@ -1,6 +1,6 @@
 {
   "name": "@bsynchro/angular-formio",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.12",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
@@ -20,10 +20,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/asmeha/angular-formio"
-  },
-  "author": {
-    "name": "Travis Tidwell",
-    "email": "travis@form.io"
   },
   "license": "MIT",
   "devDependencies": {
@@ -99,7 +95,7 @@
     "zone.js": "^0.8.26"
   },
   "dependencies": {
-    "@bsynchro/formiojs": "^1.0.0-beta.3",
+    "@bsynchro/formiojs": "^1.0.0-beta.12",
     "gulp-better-rollup": "^4.0.1",
     "gulp-sourcemaps": "^2.6.5",
     "lodash": "^4.17.11",
